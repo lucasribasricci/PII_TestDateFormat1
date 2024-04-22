@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program", "src\Program\Prog
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "src\Library\Library.csproj", "{0684900A-4A55-45B2-9D89-0E7AD61FE2DF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C6A823C0-86AB-4ED2-B9B7-020AD83A7D5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Tests", "tests\Library.Tests\Library.Tests.csproj", "{CA331745-C7E0-4830-A112-FF0280F1A373}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,5 +30,12 @@ Global
 		{0684900A-4A55-45B2-9D89-0E7AD61FE2DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0684900A-4A55-45B2-9D89-0E7AD61FE2DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0684900A-4A55-45B2-9D89-0E7AD61FE2DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA331745-C7E0-4830-A112-FF0280F1A373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA331745-C7E0-4830-A112-FF0280F1A373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA331745-C7E0-4830-A112-FF0280F1A373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA331745-C7E0-4830-A112-FF0280F1A373}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CA331745-C7E0-4830-A112-FF0280F1A373} = {C6A823C0-86AB-4ED2-B9B7-020AD83A7D5D}
 	EndGlobalSection
 EndGlobal
